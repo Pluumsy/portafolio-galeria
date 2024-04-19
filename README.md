@@ -6,7 +6,7 @@
 
 - Con Grid pude mostrar las imagenes completas, sin cortes, pero al momento de distribuirlas quedaban espacios vacios. Para solucionar esto se requiere uso de librerias que le añaden mucho peso.
 
-![prueba 1](imagen1.png)
+![prueba 1](imageness/imagen1.png)
 
 ------
 ### **Estructura** : MASONRY LAYOUT
@@ -14,7 +14,7 @@
 - Los elementos de la página son dispuestos en bloques y se acomodan según sus dimensiones para llenar mejor el espacio de la pantalla.
 - Tendencia que se inició con Pinterest.
 
-  ![imagen2](imagen2.png)
+  ![imagen2](imageness/imagen2.png)
 
 
 ### Análisis de parámetros
@@ -32,7 +32,7 @@
 
 
 [Resultado galeria](https://pluumsy.github.io/portafolio-galeria/)
-![imagen3](imagen3.png)
+![imagen3](imageness/imagen3.png)
 
 ### Mejoras:
 - Una vez terminada le agregué una pequeña animación y fue ahi cuando note que las imagenes quedaban ordenadas por columnas, lo que hace que se vea desordenado al hacer scroll, intenté solucionarlo pero al parecer se necesitaba JavaScript para hacer esos arreglos.
