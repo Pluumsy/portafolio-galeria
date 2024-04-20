@@ -1,10 +1,10 @@
-# Portafolio tipo galería de imagenes
+# Portafolio tipo galería de imágenes
 ## 2024-04-19: encargo 2
 
 ### **Pruebas**: CSS Flexbox y CSS Grid
-- Los primeros acercamientos los realicé utilizando Flexbox, el mayor problema fue que si bien logré que las imagenes se vieran sin distorsión, no se podian ver completas ya que seleccionaba solo un fragmento y la encuadraba en el formato rectangular.
+- Los primeros acercamientos los realicé utilizando Flexbox, el mayor problema fue que si bien logré que las imágenes se vieran sin distorsión, no se podían ver completas ya que seleccionaba solo un fragmento y la encuadraba en el formato rectangular.
 
-- Con Grid pude mostrar las imagenes completas, sin cortes, pero al momento de distribuirlas quedaban espacios vacios. Para solucionar esto se requiere uso de librerias que le añaden mucho peso.
+- Con Grid pude mostrar las imágenes completas, sin cortes, pero al momento de distribuirlas quedaban espacios vacios. Para solucionar esto se requiere uso de librerias que le añaden mucho peso.
 
 ![prueba 1](imageness/imagen1.png)
 
@@ -20,14 +20,14 @@
 ### Análisis de parámetros
 
 #### Imágenes:
-- Primero limité el ancho máximo de las imagenes al 100% del contenedor.
+- Primero limité el ancho máximo de las imágenes al 100% del contenedor.
 - Agregué un margen inferior de 30px, esta medida la tomé de algunos referentes que vimos de portafolios la entega pasada.
 - Establecí el tipo de visualizacíon como bloque.
-- Agregue bordes redondeados a las imagenes con un radio de 3px, debido a que queria darle un aspecto mas minimalista el borde mas bajo tenia mas relación con la gráfica de la propuesta.
+- Agregué bordes redondeados a las imágenes con un radio de 3px, debido a que queria darle un aspecto mas minimalista, el borde mas bajo tenia mas relación con la gráfica de la propuesta.
 
 #### Columnas:
 - Dividí el contenido en 3 columnas con un ancho minimo de 320px, ya que este es el ancho del celular.
-- Establecí con "column-gap" el espacio entre las columnas en 30px, para que el margen de las imagenes coincida con el de las columnas.
+- Establecí con "column-gap" el espacio entre las columnas en 30px, para que el margen de las imágenes coincida con el de las columnas.
 
 
 
@@ -35,5 +35,5 @@
 ![imagen3](imageness/imagen3.png)
 
 ### Mejoras:
-- Una vez terminada le agregué una pequeña animación y fue ahi cuando note que las imagenes quedaban ordenadas por columnas, lo que hace que se vea desordenado al hacer scroll, intenté solucionarlo pero al parecer se necesitaba JavaScript para hacer esos arreglos.
+- Una vez terminada le agregué una pequeña animación y fue ahi cuando noté que las imágenes quedaban ordenadas por las columnas hacia abajo, lo que hace que se vea desordenado al hacer scroll, intenté solucionarlo pero al parecer se necesitaba JavaScript para hacer esos arreglos.
 
